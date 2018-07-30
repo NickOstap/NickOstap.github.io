@@ -352,6 +352,7 @@ body{
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
+    padding-bottom: 5px;
 }
 .footer h1 {
     font-size: 16px;
