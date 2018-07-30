@@ -577,6 +577,9 @@ body{
     background-color: #212121;
 
 }
+.btn-group{
+    margin-top: 16px;
+}
 .btn-default:active .filter-button:active
 {
     background-color: #212121;
@@ -788,9 +791,6 @@ text-align: left;
     font-weight: 400;
     border: 1px solid #eaeaeb;
     height: 246px;
-}
-.btn-group {
-    margin-top: 16px;
 }
 .btn_form{
     height: 36px;
