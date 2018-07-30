@@ -466,9 +466,9 @@ body{
     text-transform: uppercase;
 }
 .post_about h1{
-    margin-top: 25px;
+    margin-top: 21px;
     margin-bottom: 32px;
-    font-size: 28px;
+    font-size: 16px;
     font-family:  'Montserrat', sans-serif;
 }
 .about_post_icons{
@@ -559,7 +559,7 @@ body{
 }
 .filter-button
 {
-    font-size: 18px;
+    font-size: 8px;
     border: 1px solid #42B32F;
     border-radius: 5px;
     text-align: center;
