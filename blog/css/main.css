@@ -466,6 +466,7 @@ body{
     text-transform: uppercase;
 }
 .post_about h1{
+    margin-top:25px;
     margin-bottom: 32px;
     font-size: 28px;
     font-family:  'Montserrat', sans-serif;
@@ -787,6 +788,9 @@ text-align: left;
     font-weight: 400;
     border: 1px solid #eaeaeb;
     height: 246px;
+}
+.btn-group {
+    margin-top:16px;
 }
 .btn_form{
     height: 36px;
