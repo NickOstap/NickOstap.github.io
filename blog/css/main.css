@@ -577,9 +577,6 @@ body{
     background-color: #212121;
 
 }
-.btn-group{
-    margin-top: 16px;
-}
 .btn-default:active .filter-button:active
 {
     background-color: #212121;
