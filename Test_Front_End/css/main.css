@@ -1,0 +1,583 @@
+.header_top {
+    height: 56px;
+    background-color: #ffffff;
+    
+}
+.logo_1 a {
+    padding-top: 8px;
+    text-transform: uppercase;
+    color: #040404;
+    font-size: 30px;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+.logo_1 a:hover{
+    text-decoration: none;
+}
+.logo p {
+    padding-left: 30px;
+    padding-top:4px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size:13px;
+    font-weight: 500;
+}
+.phone_number_header {
+    text-align: left;
+    padding: 0px;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000000;
+}
+.heder_btn {
+    width: 130px;
+    background-color:  #fd6f49;
+    height: 30px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.heder_btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+/* style for section one */
+
+.nav_bar {
+    background-image: url('../img/nav_bg.png');
+    height: 37px;
+    position: absolute;
+    z-index: 2;
+}
+.nav a {
+    margin-top: 9px;
+    border-right: 1px solid #cccccc;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.nav :last-child a{
+    border: none;
+}
+.nav-link{
+    padding: 0px;
+}
+a.active {
+    font-weight: 700;
+}
+.right_fon{
+    background-image: url('../img/fon_1.png');
+    background-size: contain;
+    height: 389px;
+    position: absolute;
+    z-index: 4;
+    margin-top: 35px;
+}
+.d-block{
+    height: 704px;
+}
+.carousel-control-next, .carousel-control-prev {
+     align-items: flex-end;
+     height: 5px;
+     margin-top: 388px;
+     z-index: 12;
+}
+.carousel-control-next{
+    left: 19.6%;
+}
+.carousel_prev_icon {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background-image: url('../img/control_indicator_left.png');
+    background-size: 100% 100%;
+}
+.carousel_next_icon {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background-image: url('../img/control_indicator_right.png');
+    background-size: 100% 100%;
+}
+.carousel-control-prev{
+    left: 8.8%;
+}
+.carousel-indicators.active {
+    background-color: #fff;
+    padding: 1px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 296px;
+    height: 20px;
+    width: 5%;
+    left: 4%;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+  }
+  .content{
+    background-image: url('../img/foto_oboi_bg.png');
+    background-size: cover;
+    height: 99px;
+    position: absolute;
+    margin-top: 53px;
+    z-index: 10;
+    margin-left: 18px;
+
+  }
+  .content h1{
+      text-transform: uppercase;
+      margin-top: -10px;
+      font-size: 90px;
+      color: #000000;
+      text-align: center;
+      font-weight: 700;
+  }
+  .content_2{
+    background-image: url('../img/foto_oboi_bg_2.png');
+    background-size: cover;
+    height: 55px;
+    position: absolute;
+    margin-top: 165px;
+    z-index: 10;
+    width: 20%;
+  }
+  .content_2 h1 {
+    color: #000000;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+   font-size: 32px;
+    margin-bottom: 5px;
+  }
+  .line {
+    margin-top: 5px;
+    border-color:#000;
+    margin: auto;
+    width: 90%;
+    border-width: 3px;
+
+  }
+  .content_3 {
+      height: 46px;
+      background-image: url('../img/foto_oboi_bg_3.png');
+      background-size: cover;
+      position: absolute;
+      margin-top: 171px;
+      margin-left: 19.5%;
+      z-index: 10;
+      width: 12%;
+      color: #fff;
+  }
+  .content_3 p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    word-spacing: 5px;
+  }
+  .content_3 b{
+    font-weight: 700;
+    font-size: 32px;
+  }
+ .content_4 {
+    position: absolute;
+    margin-top: 232px;
+    z-index: 10;
+    margin-left: 30px;
+ }
+ .content_4 h1{
+     line-height: 1.5;
+     font-size: 19px;
+     color:#fff;
+     text-transform: uppercase;
+     font-weight: 700;
+ }
+ .content_btn{
+    position: absolute;
+    margin-top: 298px;
+    z-index: 10;
+    margin-left: 30px;
+    background-color: #ff5655;
+    border: 2px solid #fff;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 500;
+ }
+ .content_5{
+     background-image: url('../img/foto_oboi_bg_4.png');
+     background-size: cover;
+     height: 166px;
+     position: absolute;
+     width: 56px;
+     margin-top: 53px;
+     z-index: 14;
+ }
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+  }
+
+.section_two{
+    margin-top: -280px;
+    height: 280px;
+    background:#ffffff;
+    z-index: 3;
+    opacity: 0.8;
+    position: absolute;
+  }
+.sec_two{
+    padding-top: 18px;
+    height: 238px;
+    text-align: center;
+
+  }
+.sec_two h1{
+    margin-top: 6px;
+   font-size: 18px;
+   font-weight: 700;
+}
+.sec_two p{
+   font-size: 14px;
+  
+}
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5,
+.col-xl-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ 
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+ 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo p{
+        padding-left: 0px;
+    }
+    .heder_btn{
+        margin-left: -15px;
+    }
+    .content_2{
+        width: 34%;
+    }
+    .content_3{
+        margin-left: 33.5%;
+        width: 24%
+    }
+    .right_fon{
+        background-repeat: no-repeat;
+        height: 340px;
+    }
+    .carousel-indicators{
+
+        width: auto;
+        left: 0%;
+        bottom: 6px;
+        height: auto;
+    } 
+    .d-block{
+        height: 376px;
+    }
+
+    .section_two{
+        margin-top: 0px;
+    }
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+  .carousel-control-prev, .carousel-control-next{
+      margin-top: 366px;
+      left: auto;
+      width: 12%;
+  }
+ 
+}
+}
+@media (max-width: 768px){
+    .nav a {
+        padding-left: 10px;
+    }
+}
+ @media (min-width: 375px) and (max-width: 420px){
+    .carousel-control-next, .carousel-control-prev {
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 14px;
+        z-index: 12;
+        left: auto;
+   }
+    .carousel-indicators {
+        bottom: 0px;
+        height: 20px;
+        width: auto;
+        left: 0px;
+    }
+     .header_top{
+         margin-bottom: 22px;
+         text-align: center;
+         height: auto;
+         margin-bottom: 10px;
+     }
+     .logo p{
+         padding-left: 0px;
+     }
+     .heder_btn{
+         height: auto;
+     }
+     .phone_number_header{
+         font-size: 32px;
+         text-align: center;
+     }
+     .nav{
+         justify-content: center;
+     }
+     .nav_bar{
+         height: auto;
+     }
+     .nav a{
+         padding-left: 0px;
+         border-right: 0px;
+     }
+     .d-block{
+         height: 288px;
+     }
+     .content{
+         margin-top: 68px;
+         height: 54px;
+         background-size: contain;
+         background-repeat: no-repeat;
+         margin-left: 32px;
+     }
+     .right_fon{
+         margin-top: 59px;
+         background-repeat: no-repeat;
+         height: 230px;
+     }
+     .content h1{
+        font-size: 38px;
+        margin-top: 0px;
+        text-align: left;
+     }
+     .content_2{
+        margin-top: 130px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 42px;
+        margin-left: 19px;
+     }
+     .content_2 h1{
+         font-size: 22px;
+     }
+     .content_3{
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 54%;
+        width: 30%;
+        margin-top: 136px;
+     }
+     .content_3 b{
+         font-size: 20px;
+     }
+     .content_3 p{
+        word-spacing: 0px;
+        font-size: 14px;
+
+     }
+     .content_4 {
+         margin-top: 170px;
+         margin-left: 18px;
+     }
+     .content_4 h1 {
+         font-size: 16px;
+         line-height: 1.2;
+
+     }
+     .content_5{
+         height: 101px;
+         margin-top: 68px;
+     }
+     .content_btn{
+         font-size: 10px;
+         margin-top: 210px;
+         margin-left: 18px;
+     }
+     .section_two{
+         margin-top: 0px;
+     }
+     .sec_two{
+         height: auto;
+         padding-top: 0px;
+         margin-top: 20px;
+     }
+ }
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    .header_top{
+        height: 212px;
+        text-align: center;
+    }
+    .heder_btn{
+        margin: 0px;
+    }
+    .logo p{
+        padding: 0px;
+        font-size: 15px;
+    }
+    .phone_number_header{
+        text-align: center;
+        font-size: 30px;
+    }
+    .right_fon{
+        margin-top: 89px;
+        background-repeat: no-repeat;
+        height: 230px;
+    }
+    .section_two{
+        margin-top: 0px;
+    }
+    .nav{
+        justify-content: center;
+    }
+
+    .nav_bar{
+        height: auto;
+    }
+    .nav a{
+        padding-left: 0px;
+        border-right: 0px;
+    }
+    .d-block{
+        height: 288px;
+    }
+.d-block{
+    height: 265px;
+}
+.content{
+    margin-top: 92px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 32px;
+}
+.right_fon{
+    margin-top: 89px;
+    background-repeat: no-repeat;
+    height: 176px;
+}
+.content h1{
+   font-size: 23px;
+   margin-top: 0px;
+   text-align: left;
+   padding-top: 3px;
+}
+.content_2{
+   margin-top: 130px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 40%;
+   height: 24px;
+   margin-left: 25px;
+}
+.content_2 h1{
+    font-size: 12px;
+    text-align: left;
+    padding-top: 4px;
+}
+.line{
+    display: none;
+}
+.content_3{
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-left: 42%;
+   width: 25%;
+   margin-top: 132px;
+}
+.content_3 b{
+    font-size: 14px;
+}
+.content_3 p{
+   word-spacing: 0px;
+   font-size: 8px;
+
+}
+.content_4 {
+    margin-top: 160px;
+    margin-left: 18px;
+}
+.content_4 h1 {
+    font-size: 12px;
+    line-height: 1.2;
+
+}
+.content_5{
+    height: 62px;
+    margin-top: 92px;
+}
+.content_btn{
+    font-size: 10px;
+    margin-top: 192px;
+    margin-left: 18px;
+}
+.section_two{
+    margin-top: 0px;
+}
+.sec_two{
+    height: auto;
+    padding-top: 0px;
+    margin-top: 20px;
+}
+.carousel-control-next, .carousel-control-prev {
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 14px;
+    z-index: 12;
+    left: auto;
+}
+.carousel_next_icon, .carousel_prev_icon {
+    width: 20px;
+    height: 20px;
+}
+.carousel-indicators {
+    bottom: 0px;
+    height: 12px;
+    width: auto;
+    left: 0px;
+}
+.sec_two h1{
+    font-size: 16px;
+}
+.sec_two p{
+    font-size: 10px;
+}
+}
