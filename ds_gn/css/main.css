@@ -1,0 +1,214 @@
+body{
+    background-color: #e9eae2;
+}
+.section_one{
+   
+    /* background-image: url('../img/childs.png');
+    background-size: contain; */
+}
+.head_one{
+    margin-top: 50px;
+    padding-left: 165px;
+    height: 450px;
+}
+.head_one p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    line-height: 18px;
+}
+.child{
+    margin-top: 50px;
+    background-image: url('../img/childs.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.head_two{
+    height: 500px;
+    background-color: #7acec3;
+}
+.icons_block{
+    margin-top: 60px;
+    height: 24px;
+    color: #7bcbc1;
+    font-size: 22px;
+}
+.icons_block i{
+    padding-left: 14px;
+}
+.project{
+    height: 500px;
+    background-color: #ebb240;
+}
+.fondue{
+    height: 500px;
+    background-image: url('../img/fondue.img.png');
+    background-size: contain;
+}
+.fondue_text{
+    margin-left: 20px;
+    margin-top: 86px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 1;
+}
+.fondue_text h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+.fondue_text h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family:'Roboto Condensed', sans-serif;
+    line-height: 0.7;
+}
+.view_fondue{
+    margin-top: 72px;
+    margin-bottom: 116px;
+}
+.view_fondue a{
+    margin: 0px;
+    font-size:17px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.view_fondue a:hover{
+    text-decoration: none;
+    color: #3e3f3e;
+}
+.view_fondue img{
+    height: 15px;
+    width: 20px;
+}
+.potter{
+    height: 250px;
+    background-image: url('../img/potter.png');
+    background-size: contain;
+}
+.potter_text{
+    margin-left: 20px;
+    margin-top: 36px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 1;
+}
+.potter_text h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.potter_text h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.view {
+    padding-left: 0px;
+}
+.view a{
+    margin: 0px;
+    font-size:17px;
+    color: #333333;
+    text-transform: uppercase;
+}
+.view a:hover{
+    text-decoration: none;
+    color: #3e3f3e;
+}
+.view img{
+    height: 15px;
+    width: 20px;
+}
+.like {
+    margin-top: 10px;
+    text-align: center;
+}
+.like a:hover{
+    text-decoration: none;
+}
+.like p {
+    margin-top: 5px;
+    color: #f44b48;
+}
+.louis{
+    height: 394px;
+    background-image: url('../img/louis.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.num{
+    height: 394px;
+    background-image: url('../img/num.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right{
+    padding: 0px;
+}
+.tabano{
+    margin-top: -250px;
+    height: 394px;
+    background-image: url('../img/tabano.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fiji{
+    background-image: url('../img/fiji.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.sesan{
+    height: 300px;
+    background-image: url('../img/sesan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.alessi{
+    height: 300px;
+    background-image: url('../img/alessi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.timeline{
+    height: 300px;
+    background-color: #ebb240;
+}
+.studio{
+    height: 500px;
+    background-color: #ff9b6d;
+}
+.proin{
+    height: 500px;
+    background-color: #e9eae2;
+}
+.louis_text{
+    color: #fefefe;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 12px;
+    line-height: 1;
+}
+.louis_text h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family:'Roboto Condensed', sans-serif;
+}
+.louis_text h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family:'Roboto Condensed', sans-serif;
+    line-height: 1;
+}
+.view_louis{
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+.view_louis a{
+    color: #fefefe;
+}
+.like_louis{
+    color: #fefefe;
+    margin-top: 10px;
+}
